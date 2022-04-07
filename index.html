@@ -10,7 +10,7 @@
         
     1 - IN LINE
 
-    2 - Dentro da página
+    2 - Interno (Dentro da página)
 
 
      -->
@@ -23,7 +23,12 @@
         }
 
         .classe{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: blue;
+        }
 
+        .tamanho12{
+            font-size: 12px;
         }
 
         h1 {
@@ -34,11 +39,30 @@
             background-color: cadetblue;
         }
 
+
+        .alerta{
+            color: white;
+            background-color: blue;
+            border-radius: 20px;
+            width: 500px;
+            height: 300px;
+        }
+
     </style>
 
 </head>
 
 <body>
+    <p>Acesse 
+        <a href="https://uninove.br">
+            <span class="alerta">aqui</span>
+        </a>
+
+    
+    </p>
+
+
+
     <nav style="border: 1px solid red;">
         Menu aqui
     </nav>
@@ -50,11 +74,15 @@
 
     <header>
         Principal informação da página
-        <h1 id="titulo">Segundo H1</h1>
+        <h1 id="titulo2">Segundo H1</h1>
 
-        <p id="titulo">Teste de cor</p>
+        <p >Teste de cor</p>
 
-        <p>Segundo paragrafo</p>
+        <p class="classe tamanho12">Segundo paragrafo</p>
+
+        <p class="classe tamanho12">Terceiro paragrafo</p>
+
+        <span class="classe tamanho12">Isso é uma span</span>
     </header>
 
 
